@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Education" default="test" basedir=".">
+	
+	<property file="build.properties"/>
+	
+	<path id="path.test">
+		<fileset dir="${test.lib.dir}">
+			<include name="junit*.jar" />
+		</fileset>
+		<fileset dir="${test.bin.dir}">
+			<include name="*.class" />
+		</fileset>
+		<pathelement path="${test.bin.dir}"/>
+		<pathelement location="${test.bin.dir}"/>
+	</path>
+	
+	<target name="init">
+		<mkdir dir="${bin.dir}"/>
+		<mkdir dir="${test.report.dir}"/>
+		<mkdir dir="${test.bin.dir}"/>
+	</target>
+	
+	<target name="clean">
+		<delete dir="${bin.dir}"/>
+		<delete dir="${test.report.dir}"/>
+		<delete dir="${test.bin.dir}"/>
+	</target>
+	
+	<target name="packaging" depends="compile">
+		<jar destfile="education.jar" basedir="${bin.dir}">
+			<manifest>
+				<attribute name="Main-Class" value="com.epam.education.Education"/>
+			</manifest>
+		</jar>	
+	</target>
+	
+	<target name="test" depends="clean, init, test-compile">
+		<junit printsummary="true" haltonfailure="yes" fork="no">				
+		        <classpath refid="path.test"/>
+				
+				<formatter type="plain"/>
+				<test name="com.epam.education.StudentTest" todir="${test.report.dir}"></test>
+		</junit>
+	</target>		
+	
+	<target name="test-compile" depends="clean, init">
+		<javac srcdir="${test.src.dir}" destdir="${test.bin.dir}" source="1.7" target="1.7" encoding="UTF-8" includeantruntime="false">
+			<classpath refid="path.test"/>
+		</javac>
+	</target>
+	
+	<target name="compile" depends="clean, init">
+		<javac srcdir="${src.dir}" destdir="${bin.dir}" source="1.6" target="1.6" encoding="UTF-8" includeantruntime="false">
+		</javac>
+	</target>
+</project>

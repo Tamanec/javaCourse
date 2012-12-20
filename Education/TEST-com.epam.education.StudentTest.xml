@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="EPRUTLTW0038" name="com.epam.education.StudentTest" tests="1" time="0.0" timestamp="2012-06-09T13:01:07">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_32\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_32\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_32\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_32\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_32\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_32\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_32\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_32\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="D:\worktools\apache-ant-1.8.4" />
+    <property name="java.runtime.version" value="1.6.0_32-b05" />
+    <property name="user.name" value="Denis_Sidorov" />
+    <property name="user.language" value="en" />
+    <property name="test.report.dir" value="D:\projects\Education/compiled/testReport" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_32\jre\bin" />
+    <property name="ant.project.default-target" value="packaging" />
+    <property name="ant.project.name" value="Education" />
+    <property name="java.version" value="1.6.0_32" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="test.src.dir" value="D:\projects\Education/test" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_32\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1251" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="test.lib.dir" value="D:\projects\Education/libs" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_32\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="D:\projects\Education\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="20.7-b02" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\worktools\apache-ant-1.8.4\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.home" value="C:\Users\Denis_Sidorov@epam.com" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_32\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.6.0_32\bin;D:\worktools\apache-ant-1.8.4\;D:\worktools\apache-ant-1.8.4\\BIN;;." />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="bin.dir" value="D:\projects\Education/compiled" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.file.Education" value="D:\projects\Education\build.xml" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp .;C:\Program Files (x86)\QuickTime\QTSystem\QTJava.zip; test -debug" />
+    <property name="java.class.path" value="D:\worktools\apache-ant-1.8.4\lib\ant-launcher.jar;D:\projects\Education\.\;C:\Program Files (x86)\QuickTime\QTSystem\QTJava.zip;D:\worktools\apache-ant-1.8.4\lib\ant-antlr.jar;D:\worktools\apache-ant-1.8.4\lib\ant-apache-bcel.jar;D:\worktools\apache-ant-1.8.4\lib\ant-apache-bsf.jar;D:\worktools\apache-ant-1.8.4\lib\ant-apache-log4j.jar;D:\worktools\apache-ant-1.8.4\lib\ant-apache-oro.jar;D:\worktools\apache-ant-1.8.4\lib\ant-apache-regexp.jar;D:\worktools\apache-ant-1.8.4\lib\ant-apache-resolver.jar;D:\worktools\apache-ant-1.8.4\lib\ant-apache-xalan2.jar;D:\worktools\apache-ant-1.8.4\lib\ant-commons-logging.jar;D:\worktools\apache-ant-1.8.4\lib\ant-commons-net.jar;D:\worktools\apache-ant-1.8.4\lib\ant-jai.jar;D:\worktools\apache-ant-1.8.4\lib\ant-javamail.jar;D:\worktools\apache-ant-1.8.4\lib\ant-jdepend.jar;D:\worktools\apache-ant-1.8.4\lib\ant-jmf.jar;D:\worktools\apache-ant-1.8.4\lib\ant-jsch.jar;D:\worktools\apache-ant-1.8.4\lib\ant-junit.jar;D:\worktools\apache-ant-1.8.4\lib\ant-junit4.jar;D:\worktools\apache-ant-1.8.4\lib\ant-launcher.jar;D:\worktools\apache-ant-1.8.4\lib\ant-netrexx.jar;D:\worktools\apache-ant-1.8.4\lib\ant-swing.jar;D:\worktools\apache-ant-1.8.4\lib\ant-testutil.jar;D:\worktools\apache-ant-1.8.4\lib\ant.jar;C:\Program Files\Java\jdk1.6.0_32\lib\tools.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.io.tmpdir" value="C:\Users\DENIS_~1.COM\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_32\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="D:\projects\Education" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="test.bin.dir" value="D:\projects\Education/compiled/test" />
+    <property name="basedir" value="D:\projects\Education" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="D:\worktools\apache-ant-1.8.4\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.file.type.Education" value="file" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="src.dir" value="D:\projects\Education/src" />
+    <property name="ant.project.invoked-targets" value="test" />
+  </properties>
+  <error message="com.epam.education.StudentTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: com.epam.education.StudentTest
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+</error>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
