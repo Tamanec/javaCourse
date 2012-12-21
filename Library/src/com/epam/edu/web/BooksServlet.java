@@ -37,7 +37,6 @@ public class BooksServlet extends HttpServlet {
 	@EJB
 	BookDao booker;
 	
-
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
